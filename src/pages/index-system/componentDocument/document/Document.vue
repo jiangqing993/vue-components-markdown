@@ -22,6 +22,10 @@ export default {
 			],
 			subMenuList: [
 				{
+					name: '搜索框',
+					path: '/component/jqsearchbar'
+				},
+				{
 					name: '面包屑',
 					path: '/component/jqbreadcrumb'
 				}

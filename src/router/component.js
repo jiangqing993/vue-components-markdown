@@ -17,6 +17,16 @@ const component = [
             '@/pages/index-system/componentDocument/document/JqBreadcrumb.md'
           )
         }
+      },
+      {
+        path: '/component/jqsearchbar',
+        name: 'jqsearchbar',
+        title: '搜索框',
+        component: () => {
+          return import(
+            '@/pages/index-system/componentDocument/document/JqSearchBar.md'
+          )
+        }
       }
     ]
   }

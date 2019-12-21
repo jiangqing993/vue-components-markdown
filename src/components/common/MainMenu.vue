@@ -30,83 +30,9 @@ export default {
 					]
 				},
 				{
-					name: '供应',
-					icon: 'icon-gongying',
-					children: [
-						{
-							name: '供应商',
-							path: ''
-						},
-						{
-							name: '货品分类',
-							path: ''
-						},
-						{
-							name: '货品规格',
-							path: ''
-						},
-						{
-							name: '货品单位',
-							path: ''
-						},
-						{
-							name: '货品品牌',
-							path: ''
-						},
-						{
-							name: '货品管理',
-							path: '/supply/productMange/list'
-						},
-						{
-							name: '货品分配',
-							path: ''
-						}
-					]
-				},
-				{
-					name: '订单',
-					icon: 'icon-icon-',
-					children: [
-						{
-							name: '平台订单',
-							path: ''
-						},
-						{
-							name: '本地订单',
-							path: ''
-						}
-					]
-				},
-				{
-					name: '库存',
-					icon: 'icon-kucun',
-					children: [
-						{
-							name: '库存状况',
-							path: ''
-						},
-						{
-							name: '货品入库',
-							path: ''
-						},
-						{
-							name: '货品盘点',
-							path: ''
-						}
-					]
-				},
-				{
 					name: '插件',
 					icon: 'icon-shouyin',
 					children: [
-						{
-							name: 'mavonEditor',
-							path: '/plug/mavonEditor/list'
-						},
-						{
-							name: 'markdown文档',
-							path: '/plug/markdownIt/list'
-						},
 						{
 							name: '日历',
 							path: '/plug/date/dateCalendar'
@@ -119,24 +45,14 @@ export default {
 					children: [
 						{
 							name: '搜索框组件',
+							path: '/component/jqsearchbar'
+						},
+						{
+							name: '面包屑',
 							path: '/component/jqbreadcrumb'
 						}
 					]
-				},
-				{
-					name: '设置',
-					icon: 'icon-shezhi',
-					children: [
-						{
-							name: '企业信息',
-							path: ''
-						},
-						{
-							name: '修改密码',
-							path: ''
-						}
-					]
-				},
+				}
 			]
 		}
 	},

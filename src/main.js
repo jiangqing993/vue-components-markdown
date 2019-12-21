@@ -3,7 +3,6 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import iView from 'iview'
 import router from './router'
-import JqComSearch from '@/components/others/JqComSearch'
 import mavonEditor from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
 
@@ -15,6 +14,9 @@ import 'highlight.js/styles/github.css'
 
 import './assets/fonts/iconfont.css'
 
+import JqComSearch from '@/components/others/JqComSearch'
+import JqBreadcrumb from '@/components/others/JqBreadcrumb'
+
 // 日历
 // import leapCalendar from 'vue-leap-calendar'
 // Vue.use(leapCalendar)
@@ -24,6 +26,7 @@ Vue.use(mavonEditor)
 
 // 搜索组件
 Vue.component('jq-com-search', JqComSearch)
+Vue.component('jq-breadcrumb', JqBreadcrumb)
 
 Vue.component('demo-block', DemoBlock)
 
